@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/small_gap"
                     android:gravity="center"
-                    android:text="@{viewmodel.scoreTeamA.score}"
+                    android:text="@{viewmodel.teamA.score}"
                     android:textSize="@dimen/big_text" />
 
 
@@ -96,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/small_gap"
                     android:gravity="center"
-                    android:text="@{viewmodel.scoreTeamB.score}"
+                    android:text="@{viewmodel.teamB.score}"
                     android:textSize="@dimen/big_text" />
 
             <Button
